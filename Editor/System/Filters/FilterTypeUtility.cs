@@ -35,7 +35,7 @@ namespace UnityEngine.AssetGraph {
             {"Animator Override Controller", typeof(AnimatorOverrideController)},
             {"Avatar Mask", typeof(AvatarMask)},
             {"Custom Font", typeof(Font)},
-            {"Physic Material", typeof(PhysicMaterial)},
+            {"Physic Material", typeof(UnityEngine.PhysicsMaterial)},
             {"Physic Material 2D", typeof(PhysicsMaterial2D)},
             {"Shader", typeof(Shader)},
             {"Material", typeof(Material)},

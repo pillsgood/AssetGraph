@@ -164,7 +164,6 @@ namespace UnityEngine.AssetGraph.DataModel.Version2 {
         public static List<ToggleOption<BuildAssetBundleOptions>> BundleOptionSettings = new List<ToggleOption<BuildAssetBundleOptions>> {
             new ToggleOption<BuildAssetBundleOptions>("Uncompressed AssetBundle", BuildAssetBundleOptions.UncompressedAssetBundle),
             new ToggleOption<BuildAssetBundleOptions>("Disable Write TypeTree", BuildAssetBundleOptions.DisableWriteTypeTree),
-            new ToggleOption<BuildAssetBundleOptions>("Deterministic AssetBundle", BuildAssetBundleOptions.DeterministicAssetBundle),
             new ToggleOption<BuildAssetBundleOptions>("Force Rebuild AssetBundle", BuildAssetBundleOptions.ForceRebuildAssetBundle),
             new ToggleOption<BuildAssetBundleOptions>("Ignore TypeTree Changes", BuildAssetBundleOptions.IgnoreTypeTreeChanges),
             new ToggleOption<BuildAssetBundleOptions>("Append Hash To AssetBundle Name", BuildAssetBundleOptions.AppendHashToAssetBundleName),

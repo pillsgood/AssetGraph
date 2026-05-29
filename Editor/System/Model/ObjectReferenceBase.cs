@@ -162,10 +162,10 @@ namespace UnityEngine.AssetGraph {
     }
 
     [System.Serializable]
-    public class PhysicMaterialReference : ObjectReferenceBase<PhysicMaterial> {
+    public class PhysicMaterialReference : ObjectReferenceBase<UnityEngine.PhysicsMaterial> {
         public PhysicMaterialReference() : base() {}
         public PhysicMaterialReference(PhysicMaterialReference r): base(r) {}
-        public PhysicMaterialReference(PhysicMaterial obj) : base(obj) {}
+        public PhysicMaterialReference(UnityEngine.PhysicsMaterial obj) : base(obj) {}
     }
 
     [System.Serializable]
